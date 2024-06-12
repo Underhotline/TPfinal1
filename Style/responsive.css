@@ -1,0 +1,299 @@
+
+@media (min-width: 320px){
+    body{
+        width: 90%;
+        background-size: auto;
+        overflow-x: hidden;
+        flex-basis: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .texto{
+        padding-left: 3%;
+    }
+    header{
+        width: 150%;
+   
+    }
+    .hero-content{
+        padding-right: 0%;
+        width: 100%;
+    }
+    .wrap{
+        width: 90%;
+    }
+    .gallery{
+        width: 0%;
+        display: none;
+    }
+    .box1{
+        padding: 50% 0% 5% 10%;
+        margin: 50% 0% 0% 0%;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        flex-basis: 50%;
+    }
+    .box2{
+        padding: 0% 0% 0% 10%;
+    }
+    .box3{
+        padding: 0% 0% 50% 10%;
+    }
+    .process{
+        width: 100%;
+    }
+    .fsection{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        word-wrap: normal;
+        width: 100vh;
+        padding: 0%;
+        align-items: center;
+    }
+    .ftext{
+        width: 100%;
+        padding-left: 5%;
+    }
+    .gallery2{
+        display: none;
+        width: 0%;
+    }
+
+}
+@media (min-width: 480px){
+    body{
+       width: 90%;
+       background-size: auto;
+       display: flex;
+       height: 100vh;
+    }
+    .habilidades{
+        padding-top: 15%;
+
+    }
+    .box1{
+        padding: 55% 0% 0% 10%;
+        width: 95%;
+    }
+    .box3{
+        padding: 0% 0% 35% 30%;
+    }
+
+
+}
+@media (min-width: 768px){
+    body{
+        width: 90%;
+    }
+    .About{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .gallery{
+        display: flex;
+        width: 50%;
+        flex: 3;
+        padding: 0%;
+    }
+    .gallery img{
+        width: 150px;
+    }
+    .texto{
+        flex: 1;
+    }
+    .box1{
+        padding: 50% 0% 4% 20%;
+        margin: 0%;
+        width: 80%;
+    }
+    .box2{
+        padding: 0% 0% 0% 3% ;
+        width: 100%;
+    }
+    .box3{
+        padding: 15% 0% 3% 50%;
+    }
+    .fsection{
+        width: 100%;
+        padding: 20% 0 0 0;
+        flex-wrap: wrap;
+
+    }
+    .gallery2{
+    display: flex;
+    width: 45%;
+    flex: 1;    
+    }
+    .ftext{
+        display: block;
+        width: 45%;
+        padding: 5% 1% 1% 5%;
+        flex: 1;
+        justify-content: space-between;
+    }
+    h3{
+        margin: 0%;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        width: 90%;
+    }
+    .gallery{
+        padding: 0%;
+        width: 350px;
+        flex: 3;
+    }
+    .gallery img{
+        width: 220px;
+    }
+    .texto{
+        padding: 10% 0 0 0%;
+        width: 50%;
+        flex: 1;
+    }
+    .habilidades{
+        padding: 0%;
+    }
+    .box1{
+        padding: 18% 0% 0% 25%;
+        width: 70%;
+    }
+    .box2{
+        padding: 3% 0% 5% 8%;
+    }
+    .box3{
+        padding: 5% 0% 3% 55%;
+    }
+    h3{
+        margin: 0%;
+    }
+    .fsection{
+        padding: 0%;
+    }
+
+}
+@media (min-width: 1280px) {
+    body{
+        width: 90%;
+        background-size: cover;
+        align-items: center;
+    }
+    .gallery img{
+        width: 290px;
+    }
+    .gallery{
+        width: 10%;
+        margin: 0%;
+        padding: 0;
+  
+    }
+    .texto{
+        width: 60%;
+        flex: 2;
+    }
+    .box1{
+        padding: 10% 0% 3% 35%;
+        width: 50%;
+    }
+    .box2{
+        padding: 0% 0% 8% 10%;
+        width: 95%;
+    }
+
+
+
+
+}
+@media (min-width: 1440px){
+    h2{
+        font-size: 70px ;
+    }
+
+    .box1{
+        padding: 20% 10% 5% 35%;
+    }
+    footer{
+        font-size: large;
+    }
+    .gallery{
+        padding: 0%;
+        width: 350px;
+        flex: 2;
+    }
+    .fsection{
+        width: 1440px;
+        padding: 1% 1% 1% 8%;
+        flex-wrap: wrap;
+    }
+    .ftext{
+        padding-left: 5%;
+        width: 5%;
+        text-align: center;
+        word-break: break-all;
+    }
+    .h4-content{
+        width: 68%;
+        align-items: center;
+        padding: 0% 0% 0% 0%;
+    }
+    .h2-content{
+        width: 100%;
+        font-size: 70px;
+        text-align: left;
+    }
+    .logos{
+        padding-left: 20%;
+
+    }
+}
+@media (min-width: 1920px){
+    body{
+width: 100%;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .hero-content{
+        padding-bottom: 15%;
+    }
+    .process{
+        padding: 0%;
+    }
+    .texto{
+        flex: 2;
+    }
+    .text{
+        width: 70%;
+    }
+    .gallery img{
+        width: 330px;
+    }
+    .box1{
+        padding: 13% 0% 5% 31%;
+    }
+    .box2{
+        padding:0% 0% 8% 10%;
+        width: 85%;
+    }
+    .box3{
+        padding: 2% 0% 5% 48%;
+    }
+    .process-content{
+        font-size: 70px;
+    }
+    .About-text{
+        font-size: 70px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+}

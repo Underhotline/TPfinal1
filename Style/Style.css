@@ -1,0 +1,201 @@
+body{
+    display: flex;
+    align-items: baseline;
+    height: 100vh;
+    justify-content:center;
+    font-family:"red hat text", sans-serif ;
+      background: 
+    url(/Imagenes/pag\ nico.png) no-repeat  center top/cover,
+    url(/Imagenes/3.png) repeat center bottom/cover fixed;
+    background-size: cover,cover;
+    flex-wrap: wrap;
+    margin: 0px;
+    color: #9EB2B2;
+}
+h2{
+    font-size: 270%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    margin: 5px solid black;
+    font-size: 11px;
+}
+.hero-content{
+    text-align: right;
+    padding: 20% 5% 5% 5%;
+    flex-basis: 50%;
+}
+.titulo{
+    margin: 5px;
+    ;
+}
+.wrap{
+    text-align: right;
+    word-wrap: break-word;
+    white-space: normal;
+    align-items: center;
+    margin: 21px;
+    width: 50%;
+    margin-left: auto;
+}
+.About{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 12% 0px 0%;
+}
+.texto, .gallery{
+    width: 50%;
+    flex: 1;
+}
+.gallery{
+    padding: 3% 0px 0% 0px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img{
+    border-radius: 20px;
+    flex-direction: row;
+    width: 220px;
+}
+.About-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: solid red 2px;
+}
+.texto{
+    padding: 20% 2% 5% 0%;
+}
+.About-text{
+    text-align: left;
+    padding: 1px;
+    font-size: xx-large ;
+}
+.subtitulo{
+    text-align: left;
+    flex-wrap: nowrap;
+    margin: 1px;
+    width: 55%;
+}
+.text{
+    align-items: center;
+}
+.habilidades{
+    padding-top: 12%;
+    background-size: cover;
+    margin: 0%;
+    min-height: 100vh;
+
+}
+.cuadros{
+    font-size: xx-large;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.box1{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 5% 1% 0% 35%;
+    width: 45%;
+}
+
+.box2{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 0% 4% 1% 14%;
+}
+.idea{
+    padding-top: 2%;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 4% 0% 50%;
+}
+.process{
+    width: 47%;
+    padding: 0% 4% 1% 6%;
+}
+.process-content{
+    padding: 0% 0% 2% ;
+    font-size: 270%;
+    margin: 5px;
+}
+.fsection{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin: 0%;
+    flex-wrap: wrap;
+}
+.gallery2{
+    width: 50%;
+    padding: 5% 1% 5% 5%; 
+    padding: 3% 0px 0% 0px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ftext{
+    width: 40%;
+    margin: 0%;
+    padding: 15% 1% ;
+}
+.gallery2 img{
+    border-radius: 10%;
+    width: 110%;
+}
+.resaltar{
+    color: #266dd3;
+    
+}
+mark{
+    background-color: #266dd3;
+}
+footer{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    display:flex;
+
+}
+.mail{
+    text-align: left;
+    margin: 0%;
+    padding: 10% 0% 5% 5%;
+    width: 20%;
+}
+.logos{
+    justify-content: space-around;
+    word-wrap: normal;
+    padding: 15% 5% 5% 0%;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 15%;
+}
+.logo{
+    flex: 1;
+    float: left;
+    margin: 3%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: #9EB2B2;
+    transition: background 0.5s;
+
+}
+a:hover{
+    color: #266dd3;
+}
